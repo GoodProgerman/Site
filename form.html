@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang='ru'>
+
+<head>
+	<meta charset='UTF-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<title>Document</title>
+
+	<link rel='stylesheet' href='css/svg-style.css'>
+	<link rel='stylesheet' href='css/form.css'>
+	<svg display='none'>
+		<symbol viewBox="0 0 30 30" id="svg-data4">
+			<g inkscape:label="Layer 1" inkscape:groupmode="layer" id="layer1" transform="translate(0,-289.0625)">
+				<path class="one"
+					d="M 15 3.0820312 L 15 5.0664062 C 17.538188 5.0664062 20.077321 6.0382588 22.019531 7.9804688 C 23.961741 9.9226787 24.933593 12.46181 24.933594 15 L 26.917969 15 C 26.917969 11.94578 25.757953 8.8907663 23.433594 6.5664062 C 21.109235 4.2420462 18.054221 3.0820312 15 3.0820312 z M 8.2207031 5.3925781 L 6.0957031 8.4277344 C 6.4302028 10.726144 8.6753669 14.333569 12.097656 17.755859 C 15.665537 21.323739 19.436115 23.611832 21.712891 23.789062 L 24.597656 21.769531 L 20.488281 17.660156 L 19.78125 18.367188 C 18.767131 19.381307 15.860591 18.661373 13.613281 16.414062 C 11.36597 14.166753 10.653849 11.268026 11.667969 10.253906 L 12.375 9.546875 L 8.2207031 5.3925781 z M 15 7.0058594 L 15 8.9921875 C 16.53344 8.9921875 18.066427 9.5820525 19.242188 10.757812 C 20.417946 11.933573 21.007812 13.46656 21.007812 15 L 22.994141 15 C 22.994141 12.95052 22.214158 10.90166 20.65625 9.34375 C 19.098342 7.78584 17.049472 7.0058594 15 7.0058594 z "
+					transform="translate(0,289.0625)" id="rect818" />
+			</g>
+		</symbol>
+	</svg>
+</head>
+
+<body>
+	<div class='wrapper'>
+		<section class="main">
+			<div class="main__black"></div>
+			<div class="container">
+				<nav class="navbar">
+					<a href="#" class="navbar__logo">
+						<div class="navbar__logo-1"></div>
+						<div class="navbar__logo-2"></div>
+					</a>
+					<ul class="navbar__menu">
+						<li class="underline"><a href="index.html">Главная</a></li>
+						<li class="underline"><a href="menu.html">Меню</a></li>
+						<li class="underline"><a href="about.html">О нас</a></li>
+						<li class="underline"><a href="form.html">Доставка</a></li>
+
+						<li class="slash"><a href="#">|</a></li>
+						<li class="licontact">
+							<div class="licontact__call">
+								<svg class="seen">
+									<use href="#svg-data4"></use>
+								</svg>
+							</div>
+							<div class="contact">
+								<div class="contact__number">
+									888(888)-888-88
+								</div>
+								<div class="contact__text">Свяжитесь с нами для бронирования</div>
+							</div>
+						</li>
+						<li>
+							<a href="#modal" class="orange-button">ЗАКАЗ СТОЛИКА</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			<div class="form-container container">
+				<div class="form">
+					<div class="form__title">Заказать</div>
+					<form action="">
+						<div class="form__item">
+							<label for='a1'>Имя</label><input id='a1' type="text">
+						</div>
+						<div class="form__item">
+							<label for='a2'>Фамилия</label><input id='a2' type="text">
+						</div>
+						<div class="form__item">
+							<label for='a3'>Возраст</label><input placeholder="Необязательно..." id='a3' type="number">
+						</div>
+						<div class="form__item">
+							<label for='a4'>Район:</label>
+							<select name="" id="a4">
+								<option value="">Грозный</option>
+								<option value="">Аргун</option>
+								<option value="">Гудермес</option>
+								<option value="">Ачхой-Мартановский</option>
+								<option value="">Веденский</option>
+								<option value="">Галанчожский</option>
+								<option value="">Грозненский</option>
+								<option value="">Гудермесский</option>
+								<option value="">Итум-Калинский</option>
+								<option value="">Курчалоевский</option>
+								<option value="">Надтеречный</option>
+								<option value="">Наурский</option>
+								<option value="">Ножай-Юртовский</option>
+								<option value="">Серноводский</option>
+								<option value="">Урус-Мартановский</option>
+								<option value="">Чеберлоевский[</option>
+								<option value="">Шалинский</option>
+								<option value="">Шаройский</option>
+								<option value="">Шатойский</option>
+								<option value="">Шелковской</option>
+							</select>
+						</div>
+						<div class="form__item">
+							<label for='a5'>Село</label><input placeholder="Необязательно..." id='a5' type="text">
+						</div>
+						<div class="form__item">
+							<label for='a6'>Улица</label><input id='a6' type="text">
+						</div>
+						<div class="form__item">
+							<label for='a7'>Дом №</label><input id='a7' type="number">
+						</div>
+						<div class="form__item">
+							<label for='a8'>Подъезд</label><input placeholder="Необязательно..." id='a8' type="number">
+						</div>
+						<div class="form__item">
+							<label for='a8'>Этаж</label><input placeholder="Необязательно..." id='a8' type="number">
+						</div>
+						<div class="form__item">
+							<label for='a9'>Квартира</label><input placeholder="Необязательно..." id='a9' type="number">
+						</div>
+						<div class="form__item">
+							<label for='a10'>Время</label><input id='a10' type="datetime-local">
+						</div>
+						<!-- ================= -->
+						<!-- ================= -->
+						<div class="form__item">
+							<label for='a11' class="start">Заказ</label>
+							<textarea name="" id="a11"></textarea>
+						</div>
+						<div class="form__item">
+							<label for='a12' class="start">Дополнительная информация</label>
+							<textarea placeholder="Необязательно..." name="" id="a12"></textarea>
+						</div>
+						<div class="form__item form__button">
+							<button>ЗАКАЗАТЬ</button>
+						</div>
+					</form>
+					<div class="form__desc">
+						Оплата будет производится при доставке. Стоимость доставки зависит от места вашего проживания.
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="footer">
+			<div class="footer__text">Ⓒ Все права защищены.</div>
+		</footer>
+		<section id="modal" class="modal">
+			<div class="modal__content">
+				<div class="modal__background"></div>
+				<div class="modal__black"></div>
+				<div class="modal__head">
+					<div class="modal__title">Бронирование</div>
+					<a href="#" class="modal__x">+</a>
+				</div>
+				<div class="modal__table">
+					<form action="">
+						<div class="modal__item">
+							<label for="b1">Имя</label>
+							<input id="b1" type="text">
+						</div>
+						<div class="modal__item">
+							<label for="b2">Фамилия</label>
+							<input id="b2" type="text">
+						</div>
+						<div class="modal__item">
+							<label for="b3">Код</label>
+							<input id="b3" type="text">
+						</div>
+						<div class="modal__item">
+							<label for="b4">Время</label>
+							<input id="b4" type="datetime-local">
+						</div>
+						<div class="modal__item">
+							<label for="b5">Заказ</label>
+							<textarea name="" id="" cols="30" rows="10"></textarea>
+						</div>
+						<div class="modal__item modal__button">
+							<button>ЗАБРОНИРОВАТЬ</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+	</div>
+</body>
+
+</html>
