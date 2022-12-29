@@ -728,30 +728,86 @@
 	color: #ff5d00;
 }
 
+
 .cooks__content {
 	display: flex;
 	justify-content: space-between;
 }
 
-.cooks__cards {}
 
-.cooks__card-content {
-	border: 5px solid #ff5d00;
+
+
+
+/* =========== */
+/* =========== */
+.cooks__card {
+	position: relative;
+	transform-style: preserve-3d;
+	transition: .8s all;
+	width: 390px;
+	height: 500px;
 }
 
-.cooks__card {}
+.cooks__img,
+.cooks__text {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 
-.cooks__img {}
+.cooks__img {
+	z-index: 2;
+	backface-visibility: hidden;
 
-.cooks__img img {}
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cooks__text {
+	z-index: 1;
+	background: #ff5d00;
+	transform: rotateY(-180deg);
+}
+
+.cooks__card:hover {
+	transform: rotateY(-180deg);
+}
+
+
+
+.cooks__text {
+	background-color: #ff5d00;
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
 
 .cooks__name {
 	font-size: 30px;
-	background-color: #ff5d00;
-	color: white;
-	text-align: center;
 	padding: 10px;
+	margin-bottom: 30px;
 }
+
+.cooks__desc {
+	font-size: 20px;
+	padding: 25px;
+}
+
+/* =========== */
+/* =========== */
+
+
+
+
+
+
+
+
+
+
 
 /* ======================== */
 /* ======================== */
